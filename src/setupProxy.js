@@ -9,6 +9,8 @@ module.exports = function(app) {
     })
   );
 
+
+  
   app.use(
     '/BNJNUU88223X2YDS_TST/WM/wmwebservice_rest',
     createProxyMiddleware({
