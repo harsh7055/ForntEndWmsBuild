@@ -107,6 +107,13 @@ input{
   align-items: center;
   height: 100px;
 }
+.dropdown{
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+
+}
 .recieptLabel{
 font-weight: bold;
 color: grey;
@@ -119,14 +126,17 @@ color: grey;
 .F-button{
   width: 70px;
   background-color: #2B3990;
+  
 }
 .modalContainer{
 width: 400px;
 height: auto;
  margin: 0px auto;
  border: 2px solid grey;
-position: absolute;
-bottom: 50%;
+ position: absolute;
+ left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
 }
 .modalHeader{
 width: 100%;
@@ -137,9 +147,6 @@ align-items: center;
 height: 60px;
 background-color: #2B3990;
 
-}.closeBtn{
-  height: 10px !important;
-  width: 10px !important;
 }
 .modalContent{
 padding: 10px;
@@ -147,5 +154,18 @@ padding: 10px;
 .dialogTitle{
 font-size: 16px;
 font-weight: bold;
+/* color: wheat; */
 text-transform: capitalize;
+}
+.selectDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  flex-direction: row;
+}
+.selectdata{
+  margin: 5px;
+  /* margin-top: 20px; */
 }

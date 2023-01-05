@@ -5,7 +5,7 @@ const Modal = ({ heading, closeModal }) => {
         <div className="container">
             <div className="modalHeader">
                 <h2 style={{ fontSize: "25px", fontWeight: "bold" }}>{heading}</h2>
-                <img src={require('../../assets/images/close.png')} height="20px" width="20px" onClick={() => closeModal(false)} />
+                <img src={require('../../assets/images/close.png')} className="closeBtn" style={{height:"10px" ,width:"10px"}}  onClick={() => closeModal(false)} />
             </div>
             <div className="modalContent">
                 <div>

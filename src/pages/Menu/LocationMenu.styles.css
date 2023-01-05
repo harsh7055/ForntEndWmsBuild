@@ -1,7 +1,7 @@
-.tableDiv{
+.buttonDiv{
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    width: 100% !important;
-    flex-direction: column;
+    margin-top: 10px;
 }

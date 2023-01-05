@@ -1,6 +1,7 @@
 import React from 'react'
 import { useContext } from 'react';
-import { UserContext } from '../Menu';
+import Header from '../../components/Header';
+import { UserContext } from '../SkuScanner';
 import './index.styles.css'
 export default function SkuDetail({ store }) {
   console.log(store);
@@ -13,15 +14,14 @@ export default function SkuDetail({ store }) {
   console.log(counts)
   return (
     <div>
-      <table class="table">
+      <Header title="Sku Details"/>
+      <div className='tableDiv'>
+      <table class="table w-50">
         <thead>
           <tr>
-            <th scope="col">SNO</th>
-            <th scope="col">Name</th>
-            <th scope="col">No of products</th>
-            <th scope="col">Warehouse</th>
-            <th scope="col">Owner</th>
-            <th scope="col">User</th>
+            <th scope="col">SNo</th>
+            <th scope="col">Sku</th>
+            <th scope="col">Quantity</th>
 
 
           </tr>
@@ -32,14 +32,14 @@ export default function SkuDetail({ store }) {
               <td>{i + 1}</td>
               <td>{res}</td>
               <td>{counts[res]}</td>
-              <td>{localStorage.getItem('warehouse')}</td>
-              <td>{localStorage.getItem('owner')}</td>
-              <td>{localStorage.getItem('UserName')}</td>
+             
             </tr>
           </tbody>
         ))}
 
       </table>
+      </div>
+      
     </div>
   )
 }
