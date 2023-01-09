@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.6eec399f.css",
-    "main.js": "/static/js/main.3cb10654.js",
+    "main.js": "/static/js/main.0e4cf519.js",
     "static/media/trangilelogo.jpeg": "/static/media/trangilelogo.352566706495b7a23735.jpeg",
     "index.html": "/index.html",
     "main.6eec399f.css.map": "/static/css/main.6eec399f.css.map",
-    "main.3cb10654.js.map": "/static/js/main.3cb10654.js.map"
+    "main.0e4cf519.js.map": "/static/js/main.0e4cf519.js.map"
   },
   "entrypoints": [
     "static/css/main.6eec399f.css",
-    "static/js/main.3cb10654.js"
+    "static/js/main.0e4cf519.js"
   ]
 }
